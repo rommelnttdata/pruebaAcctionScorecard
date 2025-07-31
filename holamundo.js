@@ -10,11 +10,10 @@ document.getElementById("formulario").addEventListener("submit", function(event)
     const contrasena = document.getElementById("contrasena").value;
 
     const resultado = `
-        <h2>Datos ingresados:</h2>
-        <p><strong>Nombre:</strong> ${nombre}</p>
-        <p><strong>Correo:</strong> ${correo}</p>
-        <p><strong>Contraseña:</strong> ${contrasena}</p>
-    `;
-
-    document.getElementById("resultado").innerHTML = resultado;
+    <h2>Datos ingresados:</h2>
+    <p><strong>Nombre:</strong> ${nombre}</p>
+    <p><strong>Correo:</strong> ${correo}</p>
+    <p><strong>Contraseña:</strong> ${contrasena}</p>
+`;
+document.getElementById("resultado").innerHTML = resultado;
 });
